@@ -4,7 +4,7 @@
 </div>
 <div class="row">
   <div class="col-sm">
-    <img src="/wp-content/themes/sage/resources/assets/images/img_product-tracker.png" alt="scr" />
+    <img src="/wp-content/themes/sage/resources/assets/images/img_product-tracker.png" alt="scr" class="tools-img" />
   </div>
   <div class="col-sm">
     <h6>Small heading goes here</h6>
@@ -29,12 +29,12 @@
     </ul>
   </div>
   <div class="col-sm">
-    <img src="/wp-content/themes/sage/resources/assets/images/img_product-database.png" alt="scr" />
+    <img src="/wp-content/themes/sage/resources/assets/images/img_product-database.png" alt="scr" class="tools-img" />
   </div>
 </div>
 <div class="row">
   <div class="col-sm">
-    <img src="/wp-content/themes/sage/resources/assets/images/img_niche-hunter.png" alt="scr" />
+    <img src="/wp-content/themes/sage/resources/assets/images/img_niche-hunter.png" alt="scr" class="tools-img" />
   </div>
   <div class="col-sm">
     <h6>Small heading goes here</h6>
@@ -59,6 +59,6 @@
     </ul>
   </div>
   <div class="col-sm">
-    <img src="/wp-content/themes/sage/resources/assets/images/img_keyword-scout.png" alt="scr" />
+    <img src="/wp-content/themes/sage/resources/assets/images/img_keyword-scout.png" alt="scr" class="tools-img" />
   </div>
 </div>

@@ -46,6 +46,56 @@
     }
   }
 
+  .card-deck {
+    .card {
+      .card-header {
+        height: 10px;
+        background: #85959d;
+        padding: 0;
+      }
+
+      .btn {
+        background: #85959d;
+        border: 0;
+        color: #fff;
+      }
+
+      ul {
+        list-style-image: url("/wp-content/themes/sage/resources/assets/images/check.png");
+        list-style-position: inside;
+
+        ul {
+          list-style-image: none;
+        }
+      }
+
+      &.active {
+        .card-header {
+          background: #0fb682;
+
+          &::before {
+            content: "";
+            background: url("/wp-content/themes/sage/resources/assets/images/img_card-badge.png");
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 82px;
+            height: 82px;
+            z-index: 2;
+          }
+        }
+
+        .btn {
+          background: #0fb682;
+        }
+      }
+    }
+  }
+
+  .tools-img {
+    max-height: 400px;
+  }
+
   footer {
     background-color: #f57706;
     min-height: 400px;

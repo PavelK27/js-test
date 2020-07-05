@@ -3,7 +3,7 @@
   <p>Try it risk-free! We have a 14 day money back guarantee.</p>
 </div>
 <div class="card-deck mb-3 text-center">
-  <div class="card mb-4 box-shadow">
+  <div class="card active mb-4 box-shadow">
     <div class="card-header">
     </div>
     <div class="card-body">

@@ -1,4 +1,5 @@
 <header class="landing banner">
+  <div id="ReactDemo"></div>
   <div class="wrap">
     <div class="row">
       <div class="col-sm left-col">

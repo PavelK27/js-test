@@ -1,5 +1,7 @@
-<h2>Four powerful tools in one</h2>
-<p>Minimize risks and maximize your profits with Jungle Scout. With just a few clicks, you'll soon be on your way to launching a successfull Amazon FBA product.</p>
+<div class="text-center pt-5 pb-5">
+  <h2>Four powerful tools in one</h2>
+  <p>Minimize risks and maximize your profits with Jungle Scout. With just a few clicks, you'll soon be on your way to launching a successfull Amazon FBA product.</p>
+</div>
 <div class="row">
   <div class="col-sm">
     <img src="/wp-content/themes/sage/resources/assets/images/img_product-tracker.png" alt="scr" />

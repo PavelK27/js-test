@@ -1,5 +1,57 @@
 .template-custom {
-  footer {
+  .banner {
     display: none;
+  }
+
+  .orange-bar {
+    background-color: #f57706;
+    min-height: 64px;
+
+    &.bottom {
+      min-height: 760px;
+    }
+  }
+
+  header {
+    .wrap {
+      background: url("/wp-content/themes/sage/resources/assets/images/img_boxes.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      padding: 40px 0;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+      }
+
+      .row {
+        max-width: 1200px;
+        color: #fff;
+        margin: 0 auto;
+      }
+
+      .media-feedback {
+        color: #898989;
+
+        img {
+          max-height: 25px;
+        }
+      }
+    }
+  }
+
+  footer {
+    background-color: #f57706;
+    min-height: 400px;
+
+    * {
+      display: none;
+    }
   }
 }

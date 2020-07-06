@@ -1,0 +1,158 @@
+.template-custom {
+  .banner {
+    display: none;
+  }
+
+  .orange-bar {
+    background-color: #f57706;
+    min-height: 64px;
+
+    &.bottom {
+      min-height: 760px;
+    }
+  }
+
+  header {
+    .wrap {
+      background: url("/wp-content/themes/sage/resources/assets/images/img_boxes.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      padding: 40px 0;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+      }
+
+      .row {
+        max-width: 1200px;
+        color: #fff;
+        margin: 0 auto;
+      }
+
+      .media-feedback {
+        color: #898989;
+
+        img {
+          max-height: 25px;
+        }
+      }
+    }
+  }
+
+  .card-deck {
+    .card {
+      .card-header {
+        height: 10px;
+        background: #85959d;
+        padding: 0;
+      }
+
+      .btn {
+        background: #85959d;
+        border: 0;
+        color: #fff;
+      }
+
+      .price-tag {
+        span {
+          color: #a1adb3;
+          font-size: 10px;
+        }
+
+        h3 {
+          font-weight: 700;
+          margin-bottom: 0;
+        }
+
+        p {
+          color: #0fb682;
+          font-size: 12px;
+        }
+      }
+
+      &.active {
+        .card-header {
+          background: #0fb682;
+
+          &::before {
+            content: "";
+            background: url("/wp-content/themes/sage/resources/assets/images/img_card-badge.png");
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 82px;
+            height: 82px;
+            z-index: 2;
+          }
+        }
+
+        .btn {
+          background: #0fb682;
+        }
+      }
+    }
+  }
+
+  ul {
+    list-style-image: url("/wp-content/themes/sage/resources/assets/images/check.png");
+    list-style-position: inside;
+    text-align: left;
+
+    ul {
+      list-style-image: none;
+      padding-left: 25px;
+
+      li {
+        list-style-type: none;
+
+        &::before {
+          content: "- ";
+        }
+      }
+    }
+  }
+
+  .tools {
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    .tools-img {
+      max-height: 400px;
+    }
+  }
+
+  .wp-block-js-test-cta-block {
+    max-width: 70%;
+    margin: 0 auto;
+
+    h2 {
+      font-weight: 700;
+    }
+
+    button {
+      border: 0;
+      color: #fff;
+      background: #042bdc;
+      border-radius: 10px;
+      padding: 10px 40px;
+    }
+  }
+
+  footer {
+    background-color: #f57706;
+    min-height: 400px;
+
+    * {
+      display: none;
+    }
+  }
+}

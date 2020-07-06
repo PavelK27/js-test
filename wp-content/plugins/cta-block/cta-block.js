@@ -3,7 +3,7 @@
  
     var blockStyle = {
         color: '#000',
-        padding: '20px',
+        padding: '40px',
         textAlign: 'center'
     };
  
